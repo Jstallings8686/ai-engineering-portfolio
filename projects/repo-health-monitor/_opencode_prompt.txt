@@ -1,0 +1,8 @@
+Implement the Repository Health Monitor defined in ARCHITECTURE.md. Working directory is this repo. Constraints: stdlib-only Python, Windows (MSYS/git-bash) compatible, idempotent.
+
+Required deliverables:
+1. monitor.py that implements the CLI contract documented in ARCHITECTURE.md
+2. config.json (seed with empty/null baseline fields if missing)
+3. health_check.sh (bash) that invokes monitor.py --json and writes REPO_HEALTH_REPORT.md
+
+Do NOT edit ARCHITECTURE.md. After writing all three files, run bash health_check.sh and confirm exit code 0. Report the paths created and the final report content.
