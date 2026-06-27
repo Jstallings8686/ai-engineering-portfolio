@@ -42,7 +42,9 @@ The fix was a discipline, not a patch: treat VRAM as a hard budget and cap conte
 
 ## Enforcing the boundary, not just claiming it
 
-An offline guarantee is only as good as your willingness to audit it. During a routine update, I caught and removed an upstream regression that would have broken the fully-local guarantee — a config change introduced by a dependency that I spotted during audit before it reached any data. It's a small story with a large point: the boundary is something I actively defend against regressions — including ones introduced by my own toolchain — rather than a claim made once and never rechecked.
+An offline guarantee is only as good as your willingness to audit it. During a routine update, a merged upstream dependency silently introduced a default web-search integration that pointed agent traffic at an external server. Nothing in the UI announced it. I caught it during a config audit, traced it, and removed the untrusted integration to restore the fully-local state.
+
+It's a small story with a large point: the boundary is something I actively defend against regressions — including ones introduced by my own toolchain — rather than a claim made once and never rechecked.
 
 ## A debugging note
 
