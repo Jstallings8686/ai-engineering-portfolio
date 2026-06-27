@@ -1,97 +1,62 @@
-# Johnnie Stallings
+---
+title: Resume — Johnathan Stallings
+tags: [career, resume]
+status: draft
+created: 2026-06-26
+---
 
-**Network Engineer → AI Systems Builder | Security Focused**  
-Los Angeles Area | johnnie.stallings@email.com | [LinkedIn](https://linkedin.com/in/johnniestallings) | [GitHub](https://github.com/johnnie-stallings)
+# Johnathan Stallings
 
-## Summary
+**Applied AI Engineer — Local & On-Prem LLM Systems**
 
-Network engineering professional transitioning into AI infrastructure and cybersecurity, with hands-on experience building distributed AI systems, local agent ecosystems, and repository monitoring tools. Strong foundation in networking principles with focus on security-first mindset. Self-directed learner who has architected a modular AI agent system (113+ skills) and created automated health monitoring solutions.
-
-## Technical Skills
-
-**Languages & Scripting**: Python, Bash, JSON, YAML, Markdown  
-**Systems & Platforms**: Linux (Kali), Windows 10, Git-Bash/MSYS, WSL concepts  
-**Tools & Technologies**: Git, GitHub CLI, Docker concepts, Ollama, llama.cpp, HuggingFace Hub  
-**AI/ML Concepts**: Local LLMs, agent frameworks, inference optimization, monitoring, prompt engineering  
-**DevOps & Automation**: CI/CD foundations, health checking, baseline tracking, scripting automation  
-**Monitoring & Observability**: Metrics collection, change detection, alerting foundations, logging  
-**Networking Fundamentals**: TCP/IP, subnetting, common ports, basic troubleshooting (in progress)  
-
-## Experience
-
-### Self-Directed AI Systems Engineer  
-*Hermes Agent Ecosystem* | Ongoing | Remote (Windows/Kali distributed lab)  
-- Architected and expanded a modular AI agent system with 113+ skills covering autonomous agents, creative generation, DevOps automation, and local LLM optimization  
-- Built Telegram↔Obsidian↔Git synchronization pipeline for knowledge vault management (BrainVault)  
-- Created distributed Windows/Kali inference lab enabling secure, offline LLM workloads across heterogeneous systems  
-- Implemented API quota mitigation strategies including caching, batching, and exponential backoff  
-- Developed Repository Health Monitor - automated Python/bash tool that tracks repository changes, file counts, line counts, and git size with persistent baseline storage  
-- Applied test-driven development (TDD) and systematic debugging principles to all projects  
-- Customized Hermes Agent configuration and created specialized skill sets for workflow automation  
-
-### Network Engineering Foundation  
-*In Progress* | Los Angeles Area  
-- Pursuing CompTIA Network+ certification with focus on networking fundamentals as cybersecurity entry point  
-- Hands-on practice with network concepts, planning Wireshark packet analysis lab  
-- Building toward Security+ and CySA+/Pentest+ certifications  
-- Home lab experimentation with basic network segmentation and monitoring concepts  
-
-## Projects
-
-### [Repository Health Monitor](https://github.com/johnnie-stallings/ai-engineering-portfolio/tree/main/projects/repo-health-monitor)  
-*Python/Bash* | Automated repository change detection and reporting system  
-- Zero external dependencies - pure stdlib Python + bash for cross-platform compatibility  
-- Tracks: total text files, total lines, .git size, working directory size, file changes since last scan  
-- Persistent JSON baseline enables delta reporting and trend analysis over time  
-- Human-readable and JSON output modes for different consumption needs  
-- Bash wrapper (`health_check.sh`) automates report generation to `REPO_HEALTH_REPORT.md`  
-- Demonstrates: system design, persistent state management, cross-platform scripting, monitoring fundamentals  
-
-### [Hermes Agent Skill Ecosystem](https://github.com/johnnie-stallings/ai-engineering-portfolio/tree/main/docs/hermes-skills.md)  
-*AI Agent Configuration & Customization* | 113+ skills across multiple domains  
-- Organized and categorized skills for autonomous AI agents, creative generation, DevOps, GitHub workflows, MLOps, note-taking, productivity, research, and software practices  
-- Built practical applications including:  
-  * Local-first AI agent customization with privacy-conscious architecture  
-  * Multi-agent workflow orchestration using delegation patterns  
-  * Knowledge management system integrating Telegram, Obsidian, and Git  
-  * Experiment tracking and model optimization workflows for local LLMs  
-- Demonstrates: API integration, plugin systems, workflow automation, knowledge organization  
-
-### [Distributed Inference Lab Blueprint](https://github.com/johnnie-stallings/ai-engineering-portfolio/tree/main/docs/system_blueprint.md)  
-*Architecture Documentation* | Windows/Kali distributed AI pipeline  
-- Hardware profile: NVIDIA GeForce RTX 3050 Laptop GPU  
-- Software stack: Ollama/llama.cpp for local inference, Hermes Agent for orchestration  
-- API quota mitigation: caching, batching, exponential backoff, optimized data retrieval  
-- Security principles: air-gapped operation, hardware-locked contexts, network isolation  
-- Demonstrates: system architecture design, infrastructure planning, security-conscious AI deployment  
-
-## Certifications (In Progress)
-
-- **CompTIA Network+** (Target: Q3 2026)  
-- **CompTIA Security+** (Target: Q1 2027)  
-- **CompTIA CySA+ or Pentest+** (Target: Q3 2027)  
-
-## Philosophy & Approach
-
-### Local-First, Privacy-Conscious AI  
-- Preference for open-weights models running on local hardware to protect proprietary data  
-- Air-gapped architectures for enterprise-sensitive workloads  
-- Minimal reliance on external APIs/services - focus on understanding and controlling the stack  
-- Emphasis on observability, monitoring, and health checks as foundational practices  
-
-### Networking-First Security Entry  
-- Strong foundation in networking as the essential pathway to cybersecurity specialization  
-- Monitoring and observability as first line of defense - understanding normal to detect anomalous  
-- Infrastructure as code and automation mindsets applied to security tooling and processes  
-- Continuous learning approach: certifications + hands-on projects + community engagement  
-
-## Contact
-
-- **LinkedIn**: [linkedin.com/in/johnniestallings](https://linkedin.com/in/johnniestallings)  
-- **Email**: johnnie.stallings@email.com (consider ProtonMail/Tutanota for security-focused communication)  
-- **GitHub**: [github.com/johnnie-stallings](https://github.com/johnnie-stallings)  
-- **Location**: Los Angeles Area, open to remote or hybrid positions  
+Los Angeles, CA · Jastallings76@gmail.com · github.com/Jstallings8686 · linkedin.com/in/johnathan-stallings-65ab64229
+Open to on-site roles in the LA area · open to relocation under the right conditions
 
 ---
 
-*Resume updated: June 2026 | This document lives in my public GitHub portfolio and is regularly updated*
+## Summary
+
+Self-directed AI engineer who builds local, offline-first LLM systems end-to-end — from raw idea to a working product a real user could run. Specialized in sovereign / on-premises AI: capable agents running on constrained consumer hardware with no cloud dependency and no data leaving the building. Comfortable across the full stack of the problem — inference optimization, multi-agent orchestration, autonomous pipelines, and shipping the result as something a non-technical customer can actually use. Currently building and piloting a vertical AI product for legal practices.
+
+---
+
+## Technical Skills
+
+**AI / LLM:** local inference (Ollama, llama.cpp), multi-model orchestration, agent frameworks, quantization & VRAM/KV-cache optimization, MCP tool integration, RAG, prompt and context engineering
+**Languages & tooling:** Python, Bash, Rust (proxy/perf work), Git, SQLite, Streamlit
+**Systems & infra:** Linux (Kali), Windows host administration, cron pipeline orchestration, role-based auth, encrypted backup, networking, distributed/cross-machine serving
+**Practice:** controlled experimentation, observability instrumentation, deterministic safety gating, spec-driven development
+
+---
+
+## Projects
+
+*Detailed case studies: github.com/Jstallings8686*
+
+### Sovereign Inference Lab — local, offline LLM infrastructure
+Designed and built a fully offline AI environment running production-grade, tool-using agents on a single 4 GB consumer GPU. Split-role architecture (dedicated inference host + lightweight orchestration client) over a private LAN, with the entire system operable air-gapped — no cloud, no external endpoint in the path.
+- Diagnosed and fixed a KV-cache overflow from uncapped context windows; established VRAM-budgeting discipline (defensive context ceilings, per-model schemas) that kept agents stable on constrained hardware.
+- Caught and removed an upstream dependency that silently introduced external data-egress, preserving the fully-local guarantee — security vigilance against my own toolchain.
+
+### Hermes Agent Platform — autonomous multi-agent system
+Built a local agent platform with persistent identity/memory and a self-directed background process that analyzes its own knowledge base on a 90-minute cycle.
+- Replaced a brittle multi-factor selection scorer with a structurally simple design (eligibility gate + least-recently-used picker), eliminating a lock-on failure mode by construction rather than tuning.
+- Engineered honest asynchronous state (lagged reconciliation) and per-cycle observability after repeatedly finding components that were built but never verified to fire.
+- Authored 8 original agent skills spanning research, devops, and communication (multi-model analysis, source-verification gating, platform scraping, Windows RAM recovery, agent-to-agent messaging); integrated vector storage (Chroma) as durable memory.
+
+### Triad — multi-model analysis methodology
+Designed a repeatable pipeline that routes one problem through multiple models in differentiated roles (framer, concept-only critic, artifact-level analyzer, synthesizer) to surface disagreement rather than manufacture consensus — built specifically to resist convergence bias and shared blind spots. Documented its known limitations and the in-progress fix.
+
+### Law AERP — vertical AI product for legal practices *(in pilot)*
+Built a private, on-prem AI system for law firms that turns messy intake documents into a source-cited, attorney-ready matter packet locally. Includes five deterministic legal-safety gates (e.g., conflict-check enforced before matter open), role-based access, encrypted backup, and auditable packet export. Currently structuring a paid pilot offering.
+
+---
+
+## Education
+
+**Santa Monica College** — Computer Science coursework, transfer track toward UCLA (Apr 2019 – Sep 2020)
+**Santa Monica High School** — graduate
+
+**Certifications (in progress):** CompTIA Security+ (SY0-701) · CompTIA Network+
+
+---
